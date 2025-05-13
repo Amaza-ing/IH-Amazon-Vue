@@ -2,6 +2,7 @@
 import ConditonalRendering from './components/ConditonalRendering.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import ListRendering from './components/ListRendering.vue';
+import ParentComponent from './components/ParentComponent.vue';
 import ProductList from './components/ProductList.vue';
 import VariablesComponent from './components/VariablesComponent.vue';
 </script>
@@ -15,6 +16,7 @@ import VariablesComponent from './components/VariablesComponent.vue';
   <ConditonalRendering />
   <ListRendering />
   <ProductList />
+  <ParentComponent />
 </template>
 
 <style>
