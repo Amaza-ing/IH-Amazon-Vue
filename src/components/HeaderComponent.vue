@@ -1,14 +1,13 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <header class="header">
     <h1 class="header-title">Bienvenidos</h1>
     <nav>
       <ul class="nav-list">
-        <li><a class="link" href="#">Home</a></li>
-        <li><a class="link" href="#">Blog</a></li>
-        <li><a class="link" href="#">Contact</a></li>
+        <li><RouterLink class="link" to="/">Home</RouterLink></li>
+        <li><RouterLink class="link" to="/products">Products</RouterLink></li>
+        <li><RouterLink class="link" to="/basics">Vue Basics</RouterLink></li>
       </ul>
     </nav>
   </header>
